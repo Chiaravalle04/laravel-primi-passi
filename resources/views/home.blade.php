@@ -7,6 +7,36 @@
         <title>Hello Laravel</title>
     </head>
     <body>
+
+        <header>
+
+            <nav>
+
+                <ul>
+
+                    <li>
+
+                        <a href="docs">DOCS</a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="ecosystem">Ecosystem</a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="news">News</a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
         <h1>Hello World</h1>
     </body>
 </html>

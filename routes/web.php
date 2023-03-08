@@ -13,6 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Homepage
 Route::get('/', function () {
     return view('home');
+});
+
+// Pagina 1
+Route::get('docs', function () {
+    return view('docs');
+});
+
+// Pagina 2
+Route::get('ecosystem', function () {
+    return view('ecosystem');
+});
+
+// Pagina 3
+Route::get('news', function () {
+    return view('news');
 });
